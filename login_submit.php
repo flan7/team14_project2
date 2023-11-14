@@ -8,6 +8,8 @@ if(isset($_POST["username"]) && isset($_POST["password"])){
 
   $lines = explode("\n", $file);
 
+  $found = 0;
+
   foreach($lines as $line){
     $player = explode(",",$line);
 
@@ -15,12 +17,17 @@ if(isset($_POST["username"]) && isset($_POST["password"])){
     $stored_pass = trim($player[1]);
 
     if($stored_name==$username && $stored_pass==$password){
-        $_SESSION["username"] = $username;
-        header("location: first_selection.php");
+        $found = 1;
         break;
     }
   }
-  header("location: register.php");
+  if ($found){
+    $_SESSION["username"] = $username;
+    header("location: first_selection.php");
+  }
+  else{
+    header("location: register.php");
+    }
 }
 else {
     header("location: index.html");

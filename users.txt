@@ -1,6 +1,7 @@
-crink,dink
-crink,dink
-crink,dink
-crink,dink
 
 dink,crink
+d,d
+e,e
+dink,d
+o,o
+doug,frug
