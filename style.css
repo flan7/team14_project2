@@ -1,0 +1,173 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-image: url("bg.png");
+  height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  color: #eee; 
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3 {
+  color: white;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 15px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+/* Styles for tables */
+table {
+  background-image: url("gold.png");
+  height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  border-collapse: collapse;
+  width: 80%; /* Adjusted width to make tables smaller */
+  margin: 0 auto; /* Centering tables */
+}
+
+table, th, td {
+  border: 1px solid #ddd;
+}
+
+th, td {
+  padding: 10px; /* Adjusted padding for cells */
+  text-align: center;
+  font-size: 14px; /* Adjusted font size for cells */
+}
+
+th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+
+.selected_case {
+  background-color: #FFD700;
+}
+
+.login {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.index {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.general {
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* Styles for the header */
+header {
+  background-color: #333;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+/* Styles for the main game container */
+.game-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Styles for the case selection form */
+.case-selection-form {
+  margin-top: 20px;
+}
+
+/* Styles for the offer display */
+.bank-offer {
+  background-color: #FFD700;
+  padding: 15px;
+  margin-top: 20px;
+}
+
+/* Styles for the final result display */
+.final-result {
+  margin-top: 20px;
+}
+
+/* Styles for the highscores display */
+.highscores {
+  margin-top: 20px;
+}
+
+/* Styles for the login and register forms */
+.form-container {
+  max-width: 12em; /* Approximately 2 inches */
+  margin: 0 auto;
+  background-color: #333; /* Dark background color */
+  padding: 1.5em; /* Adjusted padding for uniformity */
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+  display: block;
+  margin-bottom: 0.8em; /* Adjusted margin in em units */
+  color: #eee; /* Light text color against a dark background */
+}
+
+form input {
+  width: 100%;
+  padding: 0.8em; /* Adjusted padding in em units */
+  margin-bottom: 0.8em; /* Adjusted margin in em units */
+  box-sizing: border-box;
+  color: #555; /* Lighter text color */
+  background-color: #eee; /* Light background color for better contrast */
+}
+
+/* Styles for buttons inside the form */
+form button {
+  width: 100%;
+  background-color: #FFD700;
+  color: #555; /* Lighter text color */
+  margin: 0.5em; /* Adjusted margin in em units */
+  padding: 1em; /* Adjusted padding in em units */
+  font-size: 1em; /* Font size in em units */
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+/* Styles for the index page buttons */
+.index button {
+  background-color: #FFD700;
+  color: #555; /* Lighter text color */
+  margin: 0.5em; /* Adjusted margin in em units */
+  width: 12em; /* Approximately 2 inches */
+  padding: 1em; /* Adjusted padding in em units */
+  font-size: 1em; /* Font size in em units */
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.index button:hover {
+  background-color: #DAA520;
+}
+/* Add more specific styles as needed for different elements in your game */
