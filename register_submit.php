@@ -9,6 +9,7 @@ if(isset($_POST["username"]) && isset($_POST["password"])){
   //redirect page depending on output
   header("location: login.php");
 } 
-
-header("location: index.html");
+else{
+    header("location: index.html");
+}
 ?>
