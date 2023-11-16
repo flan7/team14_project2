@@ -38,7 +38,6 @@
 
            //checks if an offer is happening
            $_SESSION["offer"] = 0;
-           $_SESSION["final_offer"] = 0;
 
            //prompt user for the case they would like to hold as the player
            echo '<h2> Please select your case! Choose carefully!</h2>';
